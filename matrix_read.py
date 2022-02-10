@@ -30,13 +30,13 @@ def read_matrix_from_file(file_name):
                 user_matrix = list()
 
         if all_lines[-1].strip():
-            print("matrix :", user_matrix)
+         
             all_user_matrix.append(user_matrix)
 
     print("Number of matrix found: {}".format(len(all_user_matrix)))
     return(all_user_matrix)
 
 if __name__ == '__main__':
-    matrix_list = read_matrix_from_file('f1')
+    matrix_list = read_matrix_from_file('sample_input.txt')
     for matrix in matrix_list:
         print_matrix(matrix)
