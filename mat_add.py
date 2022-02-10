@@ -1,4 +1,3 @@
-from unittest import result
 import matrix_read
 list_of_matrices=matrix_read.read_matrix_from_file("f1")
 
